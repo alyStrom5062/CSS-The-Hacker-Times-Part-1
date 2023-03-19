@@ -1,1 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* * {
+    border: 1px red solid;
+} */
+
+body {
+    text-align: center;
+    font-family: Source Sans Pro;
+    background: #eee;
+}
+main {
+    background-color: #fff;
+    width: 700px;
+    margin: auto;
+    border: #eee 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ddd;
+    padding: 10px;
+
+}
+
+header {
+    font-family: Abril Fatface;
+    text-align: center;
+}
+header h1 {
+    font-size: 3em;
+}
+header .date {
+    text-align: left;
+    font-family: Source Sans Pro;
+    font-size: 1.2em;
+    font-weight: light;
+}
+
+.articleTitle {
+    font-family: Roboto Slab;
+}
+h2 {
+    font-size: 2em;
+}
+h5 {
+    color: red;
+    font-family: Abril Fatface;
+    font-size: 1.2em;
+    margin: -20px 535px 1em 0;
+    text-align: center;
+}
+
+#pageDivider {
+    border-bottom: 2px #777 solid;
+    padding: 1em 0;
+}
+nav {
+    margin-bottom: 1em;
+    border-top: 2px #777 solid;
+    border-bottom: 2px #777 solid;
+}
+nav li {
+    list-style: none;
+    margin: 0 .4em 0 .1em;
+    display: inline-block;
+    padding: 0 15x;
+}
+nav li a {
+    text-decoration: none;
+    color: #777;
+}
+nav li a:hover {
+    color: #000;
+}
+section {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 5px;
+}
+footer {
+    font-style: italic;
+    font-weight: light;
+    color: #777;
+}
